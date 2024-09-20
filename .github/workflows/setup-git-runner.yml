@@ -27,7 +27,7 @@ jobs:
         run: pulumi login
 
       - name: Pulumi stack select
-        run: pulumi stack select Konami33/k3s_infra/dev --cwd Infra
+        run: pulumi stack select Taqib/aws_python_k3s/dev --cwd Infra
 
       - name: Pulumi refresh
         run: pulumi refresh --yes --cwd Infra
