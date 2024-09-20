@@ -1,0 +1,11 @@
+name: aws_python_k3s
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: k3s automation using pulumi in aws
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
